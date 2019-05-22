@@ -176,28 +176,36 @@ input:active:hover, input:focus, input:hover {
     color: #fff;
     font-weight: 600;
     padding: 22px 15px 20px;
-    font-size: 12px;
+    font-size: 16px;
     position: relative;
     z-index: 11;
     letter-spacing: 0
 }
 
 .navbar-default .navbar-nav > li > a:focus {
-    color: #59617b
+    /* color: #59617b */
+    color: yellow;
+    /* font: bold; */
 }
 
 .navbar-default .navbar-nav > li > a:hover {
     background: 0 0;
-    color: #59617b
+    /* color: #59617b */
+    color: yellow;
+    /* font: bold; */
 }
 
 .navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:focus {
     background: 0 0 !important;
-    color: #59617b
+    /* color: #59617b */
+    color:yellow;
+    /* font: bold; */
 }
 
 .navbar-default .navbar-nav > .active > a:hover {
-    color: #59617b
+    /* color: #59617b */
+    color: yellow;
+    /* font: bold; */
 }
 
 .nav-divider-container {
