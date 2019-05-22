@@ -183,7 +183,7 @@ function social_plugin() {
 $(document).on("ready page:change", function () {
     navigator.userAgent.match(/Android|IEMobile|BlackBerry|iPhone|iPad|iPod|Opera Mini/i) || nice_scrollbar(), set_valign(), charts()
 }), $(window).load(function () {
-    jQuery(".loader_container").fadeOut(1e3).hide(), jQuery(".loader_container").css("z-index", "-1"), jQuery("html").css("overflow", "visible"), init_tooltipster(), menu_top(), set_valign(), performance(), parallax(), colorbox_images(), owl(), validate_contact_form(), social_plugin(), backstretch_image(), nav(), autocollapse(), setInterval(set_valign, 15)
+    jQuery(".loader_container").fadeOut(1e2).hide(), jQuery(".loader_container").css("z-index", "-1"), jQuery("html").css("overflow", "visible"), init_tooltipster(), menu_top(), set_valign(), performance(), parallax(), colorbox_images(), owl(), validate_contact_form(), social_plugin(), backstretch_image(), nav(), autocollapse(), setInterval(set_valign, 15)
 }), jQuery(window).on("resize", function () {
     autocollapse()
 }), $.fn.vAlignDiv = function (e) {
