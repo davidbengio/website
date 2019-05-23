@@ -570,7 +570,8 @@ input:active:hover, input:focus, input:hover {
 
 .s2-left, .s2-right {
     float: left;
-    padding: 85px 0 0
+    /*padding: 85px 0 0*/
+    padding: 0px 0 0
 }
 
 .s2-title-small span {
@@ -578,16 +579,17 @@ input:active:hover, input:focus, input:hover {
 }
 
 .s2-left {
-    width: 33%
+    width: 39%
 }
 
 .s2-center {
     float: left;
-    width: 34%
+    width: 22%;
+    padding: 50px 10px 10px 10px
 }
 
 .s2-right {
-    width: 33%
+    width: 39%
 }
 
 .s2-left img, .s2-right img {
