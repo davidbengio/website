@@ -535,6 +535,11 @@ input:active:hover, input:focus, input:hover {
     color: #FFFF00
 }
 
+.s4-icon i {
+    font-size: 70px;
+    color: #FFFF00
+}
+
 .s2-title-big, .s2-title-big h2 {
     font-size: 42px;
     color: #fff
@@ -550,6 +555,7 @@ input:active:hover, input:focus, input:hover {
 }
 
 .s2-title-container {
+    /*padding: 0 15px 40px*/
     padding: 0 15px 40px
 }
 
@@ -599,7 +605,7 @@ input:active:hover, input:focus, input:hover {
 }
 
 .s2-icon-container {
-    padding: 0 0 40px
+    padding: 0 0 30px
 }
 
 .s2-left img {
@@ -659,7 +665,7 @@ input:active:hover, input:focus, input:hover {
 }
 
 .s3-title-container {
-    padding: 0 15px 60px
+    padding: 0 15px 40px
 }
 
 .s3-title-big h2 {
