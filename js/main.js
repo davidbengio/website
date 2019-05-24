@@ -99,15 +99,15 @@ function colorbox_images() {
 
 function owl() {
     jQuery(".owl-portfolio").owlCarousel({
-        autoPlay: 6e3,
+        autoPlay: 20e3,
         pagination: !1,
         singleItem: !0
     }), jQuery(".owl-reviews").owlCarousel({
-        autoPlay: 4e3,
+        autoPlay: 10e3,
         pagination: !1,
         singleItem: !0
     }), jQuery(".owl-logotypes").owlCarousel({
-        autoPlay: 3e3,
+        autoPlay: 10e3,
         pagination: !1,
         itemsCustom: [[0, 1], [450, 2], [600, 3], [700, 4], [1e3, 4], [1060, 5], [1200, 4], [1400, 5], [1600, 6], [1800, 6]]
     })
